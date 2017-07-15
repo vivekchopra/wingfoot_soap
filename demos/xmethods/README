@@ -1,0 +1,26 @@
+This readme is for running demos using Personal Java.
+
+Currently the only two demos working with Personal Java are:
+	pjtemperature/Temperature
+	pjtraffic/Traffic
+
+1.  These tests will only work in Solaris or Win32, as Sun is only offering their emulator on these two platforms.  No word on a Linux release as of yet.
+
+2.  Download the Personal Java Emulator from java.sun.com
+3.  Add $Personal_Java_Home/bin in your path so the java compiler can find it
+4.  Add the following directories, jar files to your classpath:
+	$WINGFOOT_SRC/extern/kxml1-1_20.jar
+	$WINGFOOT_SRC/soap/build/lib/j2sewsoap_0.90.jar
+	
+5.  Change directories to your demo directory
+6.  Compile the classes using javac
+7.  Run the classes using Personal Java in the following fashion:
+	pjava xmethods.pjtemperature.Temperature <zipcode>
+	pjava xmethods.pjtemperature.Traffic <highway_number>
+
+8.  The results will show up in your console.
+
+
+*enjoy these little tests that I wrote.
+
+author: Baldwin Louie 2/12/2002

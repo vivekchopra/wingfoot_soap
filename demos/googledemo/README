@@ -1,0 +1,104 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+README for Google Search Midlet
+Wingfoot Software
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[1] Google Search Midlet
+  
+    The Google search midlet uses Google's Web APIs to perform web searches.
+    
+    1.1 Obtaining the Google license
+
+    Before building the midlet from the source code, you need to obtain a
+    license key from Google. This involves creating a Google account at
+    http://www.google.com/apis/.
+    This license key allows you to perform 1000 automated searches in day.
+
+    Once you have obtained the license key, edit the Google.java class and
+    update the constant GOOGLE_KEY with the key that you have obtained.
+
+    e.g. if the key you have obtained is "GNtDPzzEzyEiXsi2p4H4hlPAi06PW52U",
+    update GOOGLE_KEY as shown:
+
+    private final static String GOOGLE_KEY = "GNtDPzzEzyEiXsi2p4H4hlPAi06PW52U";
+
+    1.2 Installation
+    	
+    The Google search midlet can be used on any CLDC device, Palm Emulator and
+    the J2ME Tool Kit.
+    	The following are included with this package:
+	1.  Source Files - these are contained in the src directory
+	2.  PRC file for the Palm OS - this is contained in the bin directory
+	3.  JAR and JAD file - this is contained in the bin directory
+	
+    1.3 Compiling
+
+    In order to compile the Google search midlet, the following are required:
+    	1.  kvmwsoap_xml_1_0.jar or j2sewsoap_xml_1_0.jar
+		j2sewsoap_xml_1_0.jar: 
+		  This jar file targets the J2SE and J2EE platform.  
+		  It can be used in CDC/Personal Java platforms.
+		
+		kvmwsoap_xml_1_0.jar:
+		  This jar file targets the J2ME (CLDC/MIDP) platform.
+		  It is preverified and includes the kXML parser.
+
+	(these are available with the Wingfoot SOAP download)
+
+	2. midpclasses.jar
+	(this is available from the Sun Microsystem web site: 
+	 http://java.sun.com/products/midp/ )
+        
+
+[2] License and credits
+
+    Google Web APIs are the property of Google. See 
+    http://www.google.com/apis/api_terms.html for license terms
+
+    Wingfoot SOAP is the property of Wingfoot Software. See
+    http://www.wingfoot.com/products.jsp for download and license terms
+
+    The code in the Midlet is released under the license terms of the
+    Mozilla Public License 1.1. 
+    See http://www.opensource.org/licenses/mozilla1.1.html for terms and
+    details.
+
+
+[3] About
+
+    3.1 Wingfoot SOAP
+
+    Wingfoot SOAP is a lightweight client implementation of SOAP 1.1 for 
+    J2ME (CLDC and CDC) and J2SE. It's features include: 
+
+    * Small and fast 
+    * Built-in support for int, integer, long, short, float, boolean, string, 
+      dateTime, base64 and Java beans. 
+    * Supports Hashtable and Vector from Apache SOAP. 
+    * Pluggable custom serializers for data structures not supported. 
+    * Pluggable transports 
+    * Support for Document style and RPC style payload 
+    * Support for J2ME HTTP transport and J2SE HTTP transport provided
+
+    3.2 Wingfoot Software
+
+    Wingfoot Software is located in Fremont, California. We have a core 
+    technical team with experience in Java and XML technologies, Web Services, 
+    Enterprise Applications, Mobile computing and Security. 
+
+    We build software components for Web Services and .NET that can be 
+    integrated into your solutions through flexible licensing models ranging 
+    from black box components to source code licenses. 
+
+    Our product offerings in the mobile space include the Wingfoot Mobile 
+    Web Services Platform (tm). This helps integrate applications on 
+    constrained devices with enterprise applications. The enterprise 
+    application platforms supported are J2EE, Web Services stack and .NET. 
+    The target devices could be mobile phones, a smart appliance, a PDA, 
+    or even a java application running on a PC. 
+
+    Please contact us at info@wingfoot.com for additional information about 
+    our products and services and visit us at www.wingfoot.com 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+

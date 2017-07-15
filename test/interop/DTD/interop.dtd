@@ -1,0 +1,23 @@
+<!ELEMENT interop (servername)>
+<!ELEMENT servername (schema, url, service+)>
+<!ELEMENT schema (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT service (name, elementmap*, typemap*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT elementmap (elementname,
+                     elementclass,
+                     deserializerclass?)>
+<!ELEMENT elementname (#PCDATA)>
+<!ELEMENT elementclass (#PCDATA)>
+<!ELEMENT deserializerclass (#PCDATA)>
+<!ELEMENT typemap (namespace,
+                   localpart,
+		   objectclass,
+		   serializer,
+		   deserializer)>
+<!ELEMENT namespace (#PCDATA)>
+<!ELEMENT localpart (#PCDATA)>
+<!ELEMENT objectclass (#PCDATA)>
+<!ELEMENT deserializer (#PCDATA)>
+<!ELEMENT serializer (#PCDATA)>
+

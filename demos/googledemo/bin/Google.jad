@@ -1,0 +1,8 @@
+MIDlet-Name: Google
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Wingfoot Software
+MIDlet-Jar-Size: 44000
+MicroEdition-Profile: MIDP-1.0
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-1: Google, /usr/local/midp1.0.3fcs/appdb/_dukeok2.png, com.wingfoot.google.Google 
+MIDlet-Jar-URL: ./Google.jar

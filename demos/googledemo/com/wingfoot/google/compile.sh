@@ -1,0 +1,1 @@
+javac -g -classpath /home/baldwinl/devel/wingfoot_development/extern/kxml-1_20.jar:/home/baldwinl/devel/wingfoot_development/tag/wsoap/lib/kvmwsoap_xml_1_0.jar:/home/baldwinl/devel/wingfoot_development/extern/midpclasses.jar *.java
